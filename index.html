@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Reddit+Sans+Condensed:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <!-- animate style -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!-- AOS animation -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Navigation -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.png" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="list" href="#home">Home</a> </li>
+                <li class="list-items"><a class="list" href="#about">About</a> </li>
+                <li class="list-items"><a class="list" href="#skills">Skill</a> </li>
+                <li class="list-items"><a class="list" href="#contact">Contact</a> </li>
+            </ul>
+        </nav>
+        <!-- Home -->
+        <section id="home">
+            <!-- homecontent -->
+            <div class="homecontent">
+                <h1 class="animate__animated animate__backInLeft" id="username">I'm Abi <span id="lname">V J</span></h1>
+                <p id="userdetails">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development</p>
+                <a id="download" href="./resume.pdf" download>DOWNLOAD CV</a>
+            </div>
+            <!-- home image -->
+            <div class="homeimage">
+                <img id="shape" class="group1" src="./images/shape2-removebg-preview.png" alt="no image">
+                <img id="girl" class="group1" src="./images/girl.png" alt="no image">
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div class="aboutimage">
+                    <img class="img1" src="./images/myself.jpg" alt="no image">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda ullam voluptatibus odit
+                        corrupti quod dicta quia. Molestias libero alias ea voluptatem, praesentium, eveniet, et
+                        reiciendis iusto repellat commodi dolor! Dolore?</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Abi V J</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>8281134933</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>abijohnson52@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skill -->
+        <section id="skills">
+            <div class=".sectionhead">
+                <h2 class="mainhead">Skills</h2>
+                <span class="subhead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">89%</span>
+                        <div class="barblack"></div>
+                        <div data-aos="fade-right" class="barblack htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercent">83%</span>
+                        <div class="barblack"></div>
+                        <div data-aos="fade-right" class="barblack cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercent">71%</span>
+                        <div class="barblack"></div>
+                        <div data-aos="fade-right" class="barblack jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercent">79%</span>
+                        <div class="barblack"></div>
+                        <div data-aos="fade-right" class="barblack reactbar"></div>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="skillimage">
+                    <img width="100%" src="./images/image1.jpg" alt="no image">
+                </div>
+            </div>
+
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My Contacts</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linked in -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-linked-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-facebook-f brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p id="copyright">&copy;My Portfolio Website-JUNE2024,All RightsReserved to &reg;Abi V J</p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></i></a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>
